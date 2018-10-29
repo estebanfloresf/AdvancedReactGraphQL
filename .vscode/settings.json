@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "*.js":"javascriptreact"
+  },
+  "[javascript,scss,html]": {
+    "editor.formatOnSave": true
+  }
+}

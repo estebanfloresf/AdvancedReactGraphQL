@@ -2,14 +2,5 @@
 
 # Advanced React + GraphQL
 
-These are the starter files and stepped solutions for the [Advanced React and GraphQL](https://AdvancedReact.com) course by Wes Bos. 
+This is a course that uses a full stack application with React.js and GraphQL. It’s GraphQL API with Node.js on the backend and React and Apollo on the front end. This projects handles  authentication and sending email to uploading photos and caching data. The entire front-end is built in modern React.js and GraphQL.
 
-## Getting Help
-
-The best place to get help is in the #advanced-react slack room - there is a link in your course dashboard. 
-
-
-## FAQ
-
-**Q:** Which Extensions for VS Code is Wes using?
-**A:** All my extensions are listed on my dotfiles repo → https://github.com/wesbos/dotfiles but specifically this course uses [ESLint](https://github.com/Microsoft/vscode-eslint), [Prettier](https://github.com/prettier/prettier-vscode)
