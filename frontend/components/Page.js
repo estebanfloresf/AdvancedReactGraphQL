@@ -50,6 +50,11 @@ text-decoration: none;
 color: ${theme.black};
 }
 button {  font-family: 'radnika_next'; }
+
+.totalPages{
+  padding-left: 5px;
+}
+
 `;
 
 class Page extends Component {

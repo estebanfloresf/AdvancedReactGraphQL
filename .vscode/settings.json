@@ -4,5 +4,6 @@
   },
   "[javascript,scss,html]": {
     "editor.formatOnSave": true
-  }
+  },
+  "python.pythonPath": "/usr/local/bin/python3"
 }
