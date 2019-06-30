@@ -21,7 +21,7 @@ const User = props => (
   </Query>
 );
 
-User.PropTypes = {
+User.propTypes = {
   children: PropTypes.func.isRequired
 };
 
