@@ -27,8 +27,6 @@ const Mutations = {
       info
     );
 
-    console.log(item);
-
     return item;
   },
   updateItem(parent, args, ctx, info) {
@@ -140,7 +138,7 @@ const Mutations = {
     //     process.env.FRONTEND_URL
     //   }/reset?resetToken=${resetToken}">Click Here to Reset</a>`)
     // });
-    console.log(res);
+
     // 4. Return the message
     return { message: "Thanks!" };
   },

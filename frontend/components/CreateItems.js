@@ -53,7 +53,7 @@ class CreateItem extends Component {
         body: data
       }
     );
-    console.log(file);
+
     const file = await res.json();
     this.setState({
       image: file.secure_url,
@@ -72,7 +72,7 @@ class CreateItem extends Component {
               // call the mutation
               const res = await createItem();
               // change them to the single item page
-              console.log(res);
+
               Router.push({
                 pathname: "/item",
                 query: { id: res.data.createItem.id }
